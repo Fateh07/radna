@@ -1,4 +1,6 @@
   <?php 
- mysql_connect('localhost','root','');
- mysql_select_db(site)
-  ?> githap
+ 	
+ 	include 'connexion.php';
+ 	var_dump($conn);
+  
+  ?> 
